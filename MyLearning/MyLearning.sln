@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34024.191
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AspDotNet", "AspDotNet", "{E1AD8525-AF31-43D0-9638-DD6326989DDC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Python_Core", "Python_Core", "{B21274A7-7128-4CA1-9C11-71869FCBD6D9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GettingStarted", "GettingStarted\GettingStarted.csproj", "{FEF5DA2E-CFCC-4066-884A-6B5206B01B40}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyAppWeb", "MyAppWeb\MyAppWeb.csproj", "{1D67620D-47B6-4010-A6EE-54A8642FD354}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NotUsed", "NotUsed", "{168F49BD-0274-4276-B527-0F4078061C67}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FEF5DA2E-CFCC-4066-884A-6B5206B01B40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEF5DA2E-CFCC-4066-884A-6B5206B01B40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEF5DA2E-CFCC-4066-884A-6B5206B01B40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEF5DA2E-CFCC-4066-884A-6B5206B01B40}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D67620D-47B6-4010-A6EE-54A8642FD354}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D67620D-47B6-4010-A6EE-54A8642FD354}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D67620D-47B6-4010-A6EE-54A8642FD354}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D67620D-47B6-4010-A6EE-54A8642FD354}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FEF5DA2E-CFCC-4066-884A-6B5206B01B40} = {168F49BD-0274-4276-B527-0F4078061C67}
+		{1D67620D-47B6-4010-A6EE-54A8642FD354} = {E1AD8525-AF31-43D0-9638-DD6326989DDC}
+		{168F49BD-0274-4276-B527-0F4078061C67} = {E1AD8525-AF31-43D0-9638-DD6326989DDC}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9EB49520-21C6-493C-BD35-B5415A49EDE0}
+	EndGlobalSection
+EndGlobal
